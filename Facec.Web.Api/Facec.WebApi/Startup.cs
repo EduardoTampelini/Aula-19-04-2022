@@ -1,3 +1,4 @@
+using Facec.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SimpleInjector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,8 @@ namespace Facec.WebApi
 {
     public class Startup
     {
+        private Container _container = new Container();
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,17 +30,28 @@ namespace Facec.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews();
+
+            services.AddSimpleInjector(_container, options =>
+            {
+                options.AddAspNetCore().AddControllerActivation().AddViewComponentActivation().AddPageModelActivation().AddTagHelperActivation();
+
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Facec.WebApi", Version = "v1" });
             });
+
+            Instalador.Registrar(ref _container);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.ApplicationServices.UseSimpleInjector(_container);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -54,6 +69,7 @@ namespace Facec.WebApi
             {
                 endpoints.MapControllers();
             });
+            _container.Verify();
         }
     }
 }

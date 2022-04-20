@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\facec.lab01\\.nuget\\packages\\": {}
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
+      "projectUniqueName": "C:\\Users\\facec.lab04\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
       "projectName": "Facec.Servicos",
-      "projectPath": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
-      "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\obj\\",
+      "projectPath": "C:\\Users\\facec.lab04\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
+      "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\facec.lab04\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
-              "projectPath": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+            "C:\\Users\\facec.lab04\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+              "projectPath": "C:\\Users\\facec.lab04\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
             }
           }
         }

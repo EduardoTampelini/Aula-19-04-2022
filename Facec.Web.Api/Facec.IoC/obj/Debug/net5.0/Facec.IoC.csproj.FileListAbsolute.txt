@@ -1,0 +1,17 @@
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\bin\Debug\net5.0\Facec.IoC.deps.json
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\bin\Debug\net5.0\Facec.IoC.dll
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\bin\Debug\net5.0\Facec.IoC.pdb
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\bin\Debug\net5.0\Facec.Dominio.dll
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\bin\Debug\net5.0\Facec.Servicos.dll
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\bin\Debug\net5.0\Facec.Dominio.pdb
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\bin\Debug\net5.0\Facec.Servicos.pdb
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.csproj.AssemblyReference.cache
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.AssemblyInfoInputs.cache
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.AssemblyInfo.cs
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.csproj.CoreCompileInputs.cache
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.csproj.CopyComplete
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.dll
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\refint\Facec.IoC.dll
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\Facec.IoC.pdb
+C:\Users\facec.lab04\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.IoC\obj\Debug\net5.0\ref\Facec.IoC.dll
