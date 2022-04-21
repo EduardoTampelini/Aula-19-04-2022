@@ -9,7 +9,7 @@ namespace Facec.Dominio.nsInterfaces
 {
     public interface IClienteServico
     {
-        void Excluir(Cliente cliente);
+        void Excluir(Guid id);
         void Gravar(Cliente cliente);
         IEnumerable<Cliente> Obter();
         

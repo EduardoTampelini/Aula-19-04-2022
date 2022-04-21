@@ -13,7 +13,7 @@ namespace Facec.IoC
     {
         public static void Registrar(ref Container container)
         {
-            container.Register<IClienteServico, ClienteServico>(Lifestyle.Scoped);
+            container.Register<IClienteServico, ClienteServico>(Lifestyle.Singleton);
         }
     }
 }

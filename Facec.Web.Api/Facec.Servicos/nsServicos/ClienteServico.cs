@@ -12,9 +12,9 @@ namespace Facec.Servicos.nsServicos
     {
         private List<Cliente> _cliente = new List<Cliente>();
 
-        public void Excluir(Cliente cliente)
+        public void Excluir(Guid id)
         {
-            _cliente.Remove(cliente);
+                     _cliente.Remove(_cliente.FirstOrDefault(x => x.Id == id) ?? throw new ApplicationException("Cliente nao existe"));
         }
 
         public void Gravar(Cliente cliente)
