@@ -19,6 +19,10 @@ namespace Facec.Servicos.nsServicos
 
         public void Gravar(Cliente cliente)
         {
+           if(_cliente.FirstOrDefault(x => x.Documento == cliente.Documento) != null)
+            {
+                throw new ApplicationException("Cliente já cadastrado! verifique.");
+            }
             _cliente.Add(cliente);
         }
 

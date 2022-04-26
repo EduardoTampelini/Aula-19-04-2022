@@ -31,10 +31,30 @@ namespace Facec.WebApi.Controllers
         }
 
         [HttpPost]
-        public void Gravar(Cliente cliente) => _servico.Gravar(cliente);
+        public IActionResult Gravar(Cliente cliente)
+        {
+            try
+            {
+               _servico.Gravar(cliente);    
+             return Ok();
+            }
+            catch (ApplicationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
         [HttpGet]
-        public IEnumerable<Cliente> Obter() => _servico.Obter();
-        
+        public IActionResult Obter()
+        {
+            try
+            {
+                return Ok(_servico.Obter());
+            }
+            catch (ApplicationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
