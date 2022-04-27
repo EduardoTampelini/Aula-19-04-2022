@@ -8,6 +8,8 @@ namespace Facec.Dominio.nsInterfaces
 {
     public interface IUnitOfWork
     {
-        IClienteRepositorio ClienteRepositorio { get; } 
+        IClienteRepositorio ClienteRepositorio { get; }
+        
+        void SaveChanges();
     }
 }

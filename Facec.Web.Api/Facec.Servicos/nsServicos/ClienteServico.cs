@@ -10,25 +10,33 @@ namespace Facec.Servicos.nsServicos
 {
     public class ClienteServico : IClienteServico
     {
-        private List<Cliente> _cliente = new List<Cliente>();
+        private readonly IUnitOfWork _unitOfWork;
+
+        public ClienteServico(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
 
         public void Excluir(Guid id)
         {
-                     _cliente.Remove(_cliente.FirstOrDefault(x => x.Id == id) ?? throw new ApplicationException("Cliente nao existe"));
+            var cliente = _unitOfWork.ClienteRepositorio.Obter().FirstOrDefault(x => x.Id == id);
+            _unitOfWork.ClienteRepositorio.Excluir(cliente ?? throw new ApplicationException("Cliente nao existe"));
+            _unitOfWork.SaveChanges();
         }
 
         public void Gravar(Cliente cliente)
         {
-           if(_cliente.FirstOrDefault(x => x.Documento == cliente.Documento) != null)
+           if(_unitOfWork.ClienteRepositorio.Obter().FirstOrDefault(x => x.Documento == cliente.Documento) != null)
             {
                 throw new ApplicationException("Cliente já cadastrado! verifique.");
             }
-            _cliente.Add(cliente);
+            _unitOfWork.ClienteRepositorio.Gravar(cliente);
+            _unitOfWork.SaveChanges();
         }
 
         public IEnumerable<Cliente> Obter()
         {
-            return _cliente;
+            return _unitOfWork.ClienteRepositorio.Obter();
         }
     }
 }

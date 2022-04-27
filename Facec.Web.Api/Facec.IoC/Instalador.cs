@@ -1,5 +1,8 @@
 ﻿using Facec.Dominio.nsInterfaces;
+using Facec.Repositorio.nsClasses;
+using Facec.Repositorio.nsContext;
 using Facec.Servicos.nsServicos;
+using Microsoft.EntityFrameworkCore;
 using SimpleInjector;
 using System;
 using System.Collections.Generic;
@@ -13,7 +16,10 @@ namespace Facec.IoC
     {
         public static void Registrar(ref Container container)
         {
+            container.Register<DbContext, DataBaseContext>(Lifestyle.Singleton);
             container.Register<IClienteServico, ClienteServico>(Lifestyle.Singleton);
+            container.Register<IClienteRepositorio, ClienteRepositorio>(Lifestyle.Singleton);
+            container.Register<IUnitOfWork, UnitOfWordk>(Lifestyle.Singleton);
         }
     }
 }

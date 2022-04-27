@@ -1,0 +1,15 @@
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\bin\Debug\net5.0\Facec.Repositorio.deps.json
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\bin\Debug\net5.0\Facec.Repositorio.dll
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\bin\Debug\net5.0\Facec.Repositorio.pdb
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\bin\Debug\net5.0\Facec.Dominio.dll
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\bin\Debug\net5.0\Facec.Dominio.pdb
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.csproj.AssemblyReference.cache
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.AssemblyInfoInputs.cache
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.AssemblyInfo.cs
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.csproj.CopyComplete
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.dll
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\refint\Facec.Repositorio.dll
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\Facec.Repositorio.pdb
+C:\Users\facec.lab01\Desktop\Nova pasta\Aula-19-04-2022\Facec.Web.Api\Facec.Repositorio\obj\Debug\net5.0\ref\Facec.Repositorio.dll

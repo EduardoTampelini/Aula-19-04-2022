@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Facec.Dominio\Facec.Dominio.csproj" />
+    <ProjectReference Include="..\Facec.Repositorio\Facec.Repositorio.csproj" />
     <ProjectReference Include="..\Facec.Servicos\Facec.Servicos.csproj" />
   </ItemGroup>
 
