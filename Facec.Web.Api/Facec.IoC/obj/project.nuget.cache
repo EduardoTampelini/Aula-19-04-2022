@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EdfJj9sdX0xWzwtoRTvSZi5oMx28Ngfl9CHETSoiSAhf5DwG/LJ9vmpMwQMT9hamZtOKxLC7leVubVpKS92mdQ==",
+  "dgSpecHash": "APpvb1acwRRQKW2AjaOkz1r8df3JLUGYpcfxrbHVVVX8KjE+AFDOU8Ud/x16vDGrRqN4KB908ZX/TceZFpA9+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\facec.lab01\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.16\\microsoft.entityframeworkcore.5.0.16.nupkg.sha512",
     "C:\\Users\\facec.lab01\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.16\\microsoft.entityframeworkcore.abstractions.5.0.16.nupkg.sha512",
     "C:\\Users\\facec.lab01\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.16\\microsoft.entityframeworkcore.analyzers.5.0.16.nupkg.sha512",
+    "C:\\Users\\facec.lab01\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.16\\microsoft.entityframeworkcore.relational.5.0.16.nupkg.sha512",
     "C:\\Users\\facec.lab01\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\facec.lab01\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\facec.lab01\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

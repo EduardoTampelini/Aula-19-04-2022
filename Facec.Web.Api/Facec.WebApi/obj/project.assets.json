@@ -2816,6 +2816,7 @@
         "dependencies": {
           "Facec.Dominio": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.16",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.16",
           "Microsoft.Extensions.Configuration": "6.0.1"
         },
         "compile": {
