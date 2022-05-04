@@ -10,9 +10,11 @@ namespace Facec.Repositorio.nsContext
 {
     public class DataBaseContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public DataBaseContext(){ }
+
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
-            optionsBuilder.UseInMemoryDatabase("facecwebapi");
+             
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj": {}
+    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj",
         "projectName": "Facec.Dominio",
-        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj",
+        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj",
         "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj": {
+    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj",
         "projectName": "Facec.IoC",
-        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj",
+        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj",
         "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\obj\\",
+        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,14 +82,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
               },
-              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj"
+              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj": {
+                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj"
               },
-              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj"
+              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj": {
+                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj": {
+    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj",
         "projectName": "Facec.Repositorio",
-        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj",
+        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\Facec.Repositorio.csproj",
         "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\obj\\",
+        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +152,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
               }
             }
           }
@@ -169,10 +169,6 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.16, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.16, )"
             },
@@ -200,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj": {
+    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
         "projectName": "Facec.Servicos",
-        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
+        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
         "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\obj\\",
+        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Servicos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -224,8 +220,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
               }
             }
           }
@@ -258,14 +254,14 @@
         }
       }
     },
-    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj": {
+    "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj",
         "projectName": "Facec.WebApi",
-        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj",
+        "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\Facec.WebApi.csproj",
         "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -282,11 +278,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
               },
-              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj"
+              "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj": {
+                "projectPath": "C:\\Users\\facec.lab01\\Desktop\\Nova pasta (2)\\Aula-19-04-2022\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj"
               }
             }
           }
@@ -301,6 +297,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "SimpleInjector": {
               "target": "Package",
               "version": "[5.3.3, )"

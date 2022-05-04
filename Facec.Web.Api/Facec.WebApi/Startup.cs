@@ -1,8 +1,10 @@
 using Facec.IoC;
+using Facec.Repositorio.nsContext;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -18,6 +20,8 @@ namespace Facec.WebApi
 {
     public class Startup
     {
+        private const string _mySqlConnection = @"Server=localhost;User Id=root;Password=root;DataBase=facecwebapi";
+
         private Container _container = new Container();
 
         public Startup(IConfiguration configuration)
@@ -43,7 +47,7 @@ namespace Facec.WebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Facec.WebApi", Version = "v1" });
             });
-
+            services.AddDbContext<DataBaseContext>(options => options.UseMySQL(_mySqlConnection), ServiceLifetime.Singleton);
             Instalador.Registrar(ref _container);
         }
 
