@@ -18,7 +18,15 @@ namespace Facec.Repositorio.nsContext
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Cliente>();
+            modelBuilder.Entity<Cliente>(x =>
+            {
+                x.ToTable("CLIENTE");
+                x.Property(y => y.Id).HasColumnName("ID");
+                x.Property(y => y.Documento).HasColumnName("DS_DOCUMENTO").IsRequired();
+                x.Property(y => y.Nome).HasColumnName("DS_NOME");
+
+
+            });
 
             base.OnModelCreating(modelBuilder);
         }

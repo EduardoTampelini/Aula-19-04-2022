@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Facec.Repositorio.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20220504012950_MigrationUnificada_1_0_0")]
+    [Migration("20220505005506_MigrationUnificada_1_0_0")]
     partial class MigrationUnificada_1_0_0
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,17 +23,21 @@ namespace Facec.Repositorio.Migrations
                 {
                     b.Property<byte[]>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("varbinary(16)");
+                        .HasColumnType("varbinary(16)")
+                        .HasColumnName("ID");
 
                     b.Property<string>("Documento")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("DS_DOCUMENTO");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("text");
+                        .HasColumnType("text")
+                        .HasColumnName("DS_NOME");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cliente");
+                    b.ToTable("CLIENTE");
                 });
 #pragma warning restore 612, 618
         }
